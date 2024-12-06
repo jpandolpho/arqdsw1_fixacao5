@@ -16,7 +16,7 @@ public class UsersDaoFactory {
 			case DATABASE:
 				return new DatabaseUsersDao();
 			default:
-				throw new IllegalArgumentException("Tipo de contato desconhecido: " + type);
+				throw new IllegalArgumentException("Tipo de usuario desconhecido: " + type);
 		}
 	}
 	
